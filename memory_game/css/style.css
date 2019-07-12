@@ -65,3 +65,40 @@ h1 {
 img {
 	margin: 40px 8px;
 }
+footer {
+	text-transform: uppercase;
+	padding: 0 20px;
+	background-color: #0D2C40;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 0.8em;
+	font-weight: 500;
+}
+.copyright {
+	font-family: "Raleway", sans-serif;
+	float: left;
+}
+.message {
+	font-family: "Raleway", sans-serif;
+	float: right;
+}
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+.name {
+	color: #F15B31;
+	font-weight: 700;
+}
+a {
+	border-bottom: 2px solid transparent;
+}
+a:hover {
+	border-color: #FFFFFF;
+	color: #ABB2B9;
+	font-size: 36px;
+}
